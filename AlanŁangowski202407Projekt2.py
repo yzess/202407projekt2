@@ -307,7 +307,7 @@ class SymulacjaKaskady(QWidget):
         center_x = self.z2.x + self.z2.width / 2
         center_y = self.z2.y + self.z2.height + 40
         
-        # ZMIANA: nazwa zmiennej
+       
         przyciskzaw = QPolygonF()
         if self.kierunek_zaworu == "LEWO":
             przyciskzaw.append(QPointF(center_x + 10, center_y - 10))
